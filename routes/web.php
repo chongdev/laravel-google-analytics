@@ -11,4 +11,4 @@ Route::get('/', [DashboardController::class, 'index']);
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/register', [RegisterController::class, 'index']);
 
-Route::get('/goolge-analytics', [gAnalyticController::class, 'index']);
+Route::get('/google-analytics', [gAnalyticController::class, 'index']);
